@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+.navbar .logo img{
+    height: 22px;
+}
+.navbar .nav-icons img{
+    height: 22px;
+    margin-left: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    width: 100%;
+    padding-bottom: 10px;
+    
+    
+}
+.navbar UL{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    
+    margin-left: 25px;
+}
+
+.offers{
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: #fff;
+    padding-bottom: 10px;
+    
+}
+.offers a{
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: blue;
+}
+.video-clip video{
+    width: 100%;
+}
+
+.service img{
+    height: 40px;
+    /* padding-left: 1300px; */
+    padding-left: 1300px;
+}
+
+.title h1{
+    padding-top: 32px;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+}
+.my img{
+    height: 22px;
+    padding-left: 1300px;
+}
+.new{
+    padding-left: 1300px;
+}
+.product{
+    display: flex;
+}
+.product img{
+    height: 80px;
+}
+.products{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    background-color: rgba(0, 0, 0, 0.099);
+    cursor: pointer;
+}
+.product a{
+    text-decoration: none;
+    color: black;
+    margin-top: 18px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.section{
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.099);
+}
+.card{
+    height: 480px;
+    /* border: 2px solid black; */
+    width: 370px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    transition: 0.7s;
+}
+.card img{
+    height: 250px;
+}
+.card-container{
+    margin-top: 30px;
+    text-align: center;
+}
+.card h1{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.card p{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.event-pictures{
+    display: flex;
+    height: 400px;
+    justify-content: space-evenly;
+    
+}
+.apple-events h1{
+    text-align: center;
+    
+}
+.apple-events {
+    background-color: black;
+    color: #fff;
+    padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.section-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    
+}
+.section-3 img{
+    height: 600px;
+}
+.section-3 h1{
+    font-size: 40px;
+}
+
+.store{
+    display: flex;
+    margin-left: 5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.store img{
+    height: 22px;
+}
+.menu-items{
+    background-color: rgba(0, 0, 0, 0.099);
+    margin-top: 30px;
+    
+}
+.menu-list{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu-list ul{
+    list-style: none;
+}
+.footer{
+    text-align: center;
+    padding: 20px;
+}
+
+/* Media Queries */
+@media only screen and (max-width:600){
+    .navbar ul{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 40px;
+        position: absolute;
+        opacity: 0%;
+        background-color: #fff;
+    }
+    .navbar ul li{
+        padding-top: 30px;
+
+    }
+}
